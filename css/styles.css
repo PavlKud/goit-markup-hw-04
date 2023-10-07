@@ -398,9 +398,13 @@ img {
   height: 100%;
   flex-shrink: 0;
   background-color: #4d5ae5;
-  border-radius: 50%;  
+  border-radius: 50%; 
+   
   transition: border-color 300ms linear, color 300ms linear
+  
+
 }
+
 .team-soc-link:hover,
 .team-soc-link:focus{
   border-color: #31D0AA;
