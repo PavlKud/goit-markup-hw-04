@@ -377,12 +377,18 @@ img {
 }
 
 .team-soc-list {
+  display: flex; 
+}
+
+.team-soc-item {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
   gap: 24px;
- 
 }
-.team-soc-item {
+
+.team-soc-link{ 
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -390,14 +396,9 @@ img {
   height: 40px;
   flex-shrink: 0;
   background-color: #4d5ae5;
-  border-radius: 100%;
-  fill: #e7e9fc;
-  
-  
-  
-
- 
+  border-radius: 50%;
 }
+
 .team-soc-icon {
   fill: #e7e9fc;
 }
