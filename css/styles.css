@@ -401,15 +401,15 @@ img {
 }
 
 .team-soc-link:hover, .team-soc-link:focus{
-  background-color: #404bbf;
-  fill: #e7e9fc;
+  background-color: #404bbf;;
+  
   
 }
 
 
 
 .team-soc-icon {
-  fill: #e7e9fc;
+  fill: #f4f4fd
 
 }
 
