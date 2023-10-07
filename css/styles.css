@@ -380,8 +380,6 @@ img {
   display: flex; 
   justify-content: center;
   gap: 24px;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-item {
@@ -399,18 +397,16 @@ img {
   flex-shrink: 0;
   background-color: #4d5ae5;
   border-radius: 50%; 
-   
-  transition: border-color 300ms linear, color 300ms linear
-  
-
+  transition: ;
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus{
-  border-color: #31D0AA;
+.team-soc-link:hover, .team-soc-link:focus{
+  background-color: #404bbf;
   fill: #e7e9fc;
-
+  
 }
+
+
 
 .team-soc-icon {
   fill: #e7e9fc;
