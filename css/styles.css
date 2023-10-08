@@ -62,8 +62,6 @@ img {
   position: relative;   
 }
 
-
-
 .header-container {
   display: flex;
 }
@@ -91,8 +89,7 @@ img {
   gap: 40px;
   align-items: center;
   justify-content: center;
-
-  
+ 
 }
 
 .header-list-item {
@@ -121,10 +118,7 @@ img {
   color: #404bbf;
   }
 
-
-
  
-
   .header-list-link:hover::after{
   content:"";
   position: absolute;
