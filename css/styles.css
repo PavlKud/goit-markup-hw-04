@@ -37,6 +37,7 @@ img {
 /*----------Header---------*/
 
 .container {
+  color: #404bbf;
   max-width: 1158px;
   width: 100%;
   margin: 0 auto;
@@ -95,14 +96,9 @@ img {
  
 }
 
-.header-list-item {
-  color: #404bbf;
-}
 
 
-
-.header-list-link {  
-  color: #404bbf;
+.header-list-link { 
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
