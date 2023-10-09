@@ -96,7 +96,7 @@ img {
 }
 
 .header-list-item {
-
+  color: #404bbf;
 }
 
 
@@ -118,8 +118,7 @@ img {
   color: #404bbf;
   }
 
-  .current{  
-    color: #404bbf;
+  .current{    
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
