@@ -128,7 +128,9 @@ img {
 
    
   }
-  
+  .current:hover{
+    color: #404bbf;
+  }
   
   .current::after{
   content:"";
