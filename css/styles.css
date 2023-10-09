@@ -119,7 +119,7 @@ img {
   }
 
  
-  .current:hover::after{
+  .current::after{
   content:"";
   position: absolute;
   left: 0; 
