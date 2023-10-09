@@ -118,8 +118,10 @@ img {
   color: #404bbf;
   }
 
- 
-  .current::after{
+  .current{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .current:hover::after{
   content:"";
   position: absolute;
   left: 0; 
@@ -129,6 +131,7 @@ img {
   color: #404bbf;
   background-color: #404bbf;
   border-radius: 2px;
+  
 
   display: inline-block;
   }
