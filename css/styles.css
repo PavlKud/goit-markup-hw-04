@@ -83,6 +83,10 @@ img {
 .span {
   color: #2e2f42;
 }
+.span:hover{
+  color: #404bbf;
+}
+
 
 .header-list {
   display: flex;
@@ -99,6 +103,7 @@ img {
 
 
 .header-list-link {
+  
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -106,7 +111,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;  
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -116,14 +121,14 @@ img {
   }
 
   .current{
-  color: #404bbf;
+  
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
    
   }
-  .current::after{
+  .current:hover::after{
   content:"";
   position: absolute;
   left: 0; 
