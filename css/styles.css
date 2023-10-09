@@ -68,7 +68,7 @@ img {
 
 
 .header-logo {
-  color: #4d5ae5;
+  color #404bbf;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
 
@@ -83,9 +83,7 @@ img {
  .span {
   color: #2e2f42;
 }
-.header-logo:hover .span:hover{
-  color: #404bbf;
-}
+
 
 
 .header-list {
