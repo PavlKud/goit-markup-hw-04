@@ -80,11 +80,11 @@ img {
 }
 
 
-.span {
+ .span {
   color: #2e2f42;
 }
-.span:hover{
-  /* color: #404bbf; */
+.header-logo:hover .span:hover{
+  color: #404bbf;
 }
 
 
@@ -103,8 +103,7 @@ img {
 
 
 
-.header-list-link {
-  
+.header-list-link {  
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -128,9 +127,7 @@ img {
 
    
   }
-  .current:hover{
-    color: #404bbf;
-  }
+
   
   .current::after{
   content:"";
