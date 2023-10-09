@@ -150,7 +150,7 @@ img {
 
 .address-list-item {
   padding: 24px 0;
- 
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-link {
@@ -161,7 +161,8 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ 
 }
 
 .address-list-link:hover,
